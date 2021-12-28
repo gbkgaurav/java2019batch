@@ -84,7 +84,7 @@ Based on the data they handle there are two types of streams −
    FileOutputStream ("C:/java/hello") Following constructor takes a file object to create an output stream object to write the file. 
    First, we create a file object using File method as follows: File f = new File("C:/java/hello"); OutputStream f = new FileOutputStream (f); Once we have OutputStream object in hand, then there is a list of helper methods, which can be used to write to stream or to do other operations on the stream.
     
-    ## Helper Methods
+  ## Helper Methods
    * public void close() throws IOException{ } : This method closes the file output stream. Releases any system resources associated with the file. Throws an IOException.
    * protected void finalize() throws IOException { } : This method cleans up the connection to the file. Ensures that the close method of this file output stream is called when there are no more references to this stream. Throws an IOException.
    * public void write(int w) throws IOException{ } : This methods writes the specified byte to the output stream.
